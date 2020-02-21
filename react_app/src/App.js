@@ -16,7 +16,7 @@ let theme = {
 };
 
 
-const ThemeContext = React.createContext(theme.light);
+const ThemeContext = React.createContext(theme.dark);
 
 class App extends Component {
   static contextType = ThemeContext;
